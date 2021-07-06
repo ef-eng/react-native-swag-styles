@@ -1,22 +1,18 @@
 {
   "name": "react-native-swag-styles-example",
-  "displayName": "SwagStyles Example",
+  "displayName": "Example for react-native-swag-styles",
   "expo": {
     "name": "react-native-swag-styles-example",
     "slug": "react-native-swag-styles-example",
     "description": "Example app for react-native-swag-styles",
     "privacy": "public",
     "version": "1.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "githubUrl": "https://github.com/ef-eng/react-native-swag-styles",
+    "platforms": ["ios", "android", "web"],
+    "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   }
 }
