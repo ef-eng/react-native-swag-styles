@@ -76,7 +76,7 @@ export const makeStyles: MakeStyles = (
  * Create a StyleSheet from given object with support for constant values
  */
 export const createStyleSheet = <T extends NamedStyles<T>>(
-  definition: T
+  definition: T | NamedStyles<T>
 ): Readonly<T> => {
   // filter constant values
   const filteredStyleSheet = Object.entries<StyleValue | StyleConstant>(
@@ -89,7 +89,7 @@ export const createStyleSheet = <T extends NamedStyles<T>>(
   return {
     ...definition,
     ...StyleSheet.create(filteredStyleSheet),
-  };
+  } as T;
 };
 
 const isStyle = (s: StyleValue | StyleConstant): s is StyleValue =>
