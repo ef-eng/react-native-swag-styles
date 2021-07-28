@@ -2,6 +2,10 @@
 
 Dynamic Styles for React Native and Expo Web
 
+[![CircleCI](https://img.shields.io/circleci/build/github/ef-eng/react-native-swag-styles/main)](https://circleci.com/gh/ef-eng/react-native-swag-styles/tree/main)
+[![npm](https://img.shields.io/npm/v/react-native-swag-styles)](https://www.npmjs.com/package/react-native-swag-styles)
+[![GitHub license](https://img.shields.io/github/license/ef-eng/react-native-swag-styles)](https://github.com/ef-eng/react-native-swag-styles/blob/main/LICENSE)
+
 ## Highlights
 
 - **Dynamic.** Based on React Hook. It automatically re-renders when necessary.
