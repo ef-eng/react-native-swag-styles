@@ -8,11 +8,17 @@
     "privacy": "public",
     "version": "1.0.0",
     "githubUrl": "https://github.com/ef-eng/react-native-swag-styles",
-    "platforms": ["ios", "android", "web"],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true
     },
-    "assetBundlePatterns": ["**/*"]
+    "assetBundlePatterns": [
+      "**/*"
+    ]
   }
 }
